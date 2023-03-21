@@ -7,7 +7,11 @@ trigger:
 - master
 
 pool:
-  name: benighil
+  name: Default
+  demands:
+    agent.name -equals benighil
+
+  
   
 
 steps:
